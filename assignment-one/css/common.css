@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.content{
+	background-color: #ccc;
+	padding: 30px;
+	margin: 0 0 30px;
+}
+
+@media(max-width: 1024px){
+	.content{
+		background-color: orange;
+	}
+}
+
+@media(max-width: 768px){
+	.content{
+		background-color: purple;
+	}
+}
+
+@media(max-width: 640px){
+	.content{
+		background-color: powderblue;
+	}
+}
+
+@media(max-width: 480px){
+	.content{
+		background-color: pink;
+	}
+}
+
+@media(max-width: 360px){
+	.content{
+		background-color: red;
+	}
+}
